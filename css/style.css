@@ -20,22 +20,24 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 25px;
+  padding: 0 1.5625em;
   transition: 0.3s;
+  margin-top: 3em;
+  left: 5%;
 }
 
-/* .menu {
+.menu {
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 2em;
-  right: 12%;
-} */
+  top: 1em;
+  right: 15%;
+}
 .logo a {
   display: block;
-  /* position: absolute;
-  top: 2em;
-  left: 6%; */
+  position: absolute;
+  top: 3em;
+  left: 6%;
 }
 .logo a #retro {
   display: block;
@@ -45,7 +47,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin: 1em; */
 }
 .menu {
   display: flex;
@@ -62,8 +63,8 @@ body {
   color: hsl(233, 8%, 79%);
   text-decoration: none;
   display: block;
-  padding: 40px 25px;
-  font-size: 15px;
+  padding: 2.5em 1.5625em;
+  font-size: 0.9375em;
   line-height: 1;
   transition: 0.3s;
   font-weight: 400;
@@ -73,10 +74,10 @@ body {
 }
 .hamburger {
   position: relative;
-  width: 30px;
-  height: 4px;
+  width: 1.875em;
+  height: 0.25em;
   background-color: #000;
-  border-radius: 10px;
+  border-radius: 0.625em;
   cursor: pointer;
   z-index: 2;
   transition: 0.3s;
@@ -85,23 +86,23 @@ body {
 .hamburger:after {
   content: "";
   position: absolute;
-  height: 4px;
+  height: 0.25em;
   right: 0;
   background: #000;
-  border-radius: 10px;
+  border-radius: 0.625em;
   transition: 0.3s;
 }
 .hamburger::before {
-  top: -10px;
-  width: 30px;
+  top: -0.625em;
+  width: 1.875em;
 }
 .hamburger::after {
-  top: 10px;
-  width: 30px;
+  top: 0.625em;
+  width: 1.875em;
 }
 .toggle-menu {
   position: absolute;
-  width: 30px;
+  width: 1.875em;
   height: 100%;
   z-index: 3;
   cursor: pointer;
@@ -117,24 +118,17 @@ body {
 .nav input:checked ~ .hamburger:before {
   top: 0;
   transform: rotate(-45deg);
-  width: 30px;
+  width: 1.875em;
 }
 .nav input:checked ~ .hamburger:after {
   top: 0;
   transform: rotate(45deg);
-  width: 30px;
-}
-/* li,
-a {
-  color: hsl(233, 8%, 79%);
-  display: inline-block;
-  text-decoration: none;
+  width: 1.875em;
 }
 
 li {
   margin-left: 0.3em;
-  margin-right: 0.3em;
-} */
+}
 
 article {
   display: grid;
@@ -144,11 +138,11 @@ article {
   width: 90%;
   height: auto;
   margin: auto;
-  margin-top: 3rem;
+  margin-top: 3em;
 }
 article section {
   /* border: 1px solid blue; */
-  padding: 1rem;
+  padding: 1em;
 }
 #item-a {
   grid-column-start: 1;
@@ -172,16 +166,17 @@ article section {
 #item-b h2 {
   color: hsl(35, 77%, 62%);
   margin-bottom: 1em;
-  margin-top: 5rem;
+  margin-top: 5em;
 }
 #item-b p {
-  margin-bottom: 2rem;
+  margin-bottom: 2em;
 }
 #item-b h3 {
-  margin-top: 3rem;
+  margin-top: 3em;
 }
 #item-b h3:hover {
   color: hsl(35, 77%, 62%);
+  cursor: pointer;
 }
 #item-c {
   grid-column: 1 / 2;
@@ -204,7 +199,11 @@ article section {
   background-color: hsl(240, 100%, 5%);
 }
 #item-d {
+  font-size: 1.5em;
   grid-column: 2 / 3;
+}
+#item-d a {
+  text-decoration: none;
 }
 
 #item-e img {
@@ -221,7 +220,7 @@ article section {
 }
 p {
   color: hsl(233, 8%, 79%);
-  font-size: 15px;
+  font-size: 0.93em;
   font-weight: 400;
 }
 .list {
@@ -231,6 +230,7 @@ p {
 }
 h3:hover {
   color: hsl(5, 85%, 63%);
+  cursor: pointer;
 }
 .nav input:checked ~ .menu {
   right: 0;
@@ -251,7 +251,7 @@ h3:hover {
     height: 100%;
   }
   .header {
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;
   }
   .hamburger,
   .toggle-menu {
@@ -263,12 +263,12 @@ h3:hover {
     align-items: center;
     position: fixed;
     top: 0;
-    right: -300px;
+    right: -18.75em;
     background: #fff;
     margin-top: 3em;
-    width: 200px;
+    width: 12.5em;
     height: 100%;
-    padding-top: 65px;
+    padding-top: 4em;
   }
   .menu li {
     width: 100%;
@@ -276,7 +276,7 @@ h3:hover {
   .menu li a {
     color: #000;
     font-weight: 700;
-    padding: 15px;
-    font-size: 15px;
+    padding: 0.9em;
+    font-size: 0.9em;
   }
 }
