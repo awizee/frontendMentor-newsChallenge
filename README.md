@@ -23,7 +23,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-grid-landing-page-swSJkUXNn_)
 - Live Site URL:(https://awizee.github.io/frontendMentor-newsChallenge/)
 
 ## My process
