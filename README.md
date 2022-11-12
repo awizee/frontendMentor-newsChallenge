@@ -24,7 +24,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://awizee.github.io/frontendMentor-newsChallenge/)
+- Live Site URL:(https://awizee.github.io/frontendMentor-newsChallenge/)
 
 ## My process
 
