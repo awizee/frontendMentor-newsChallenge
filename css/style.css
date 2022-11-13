@@ -13,6 +13,8 @@ body {
   position: relative;
   width: 100vw;
   min-height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .header {
   position: relative;
@@ -67,7 +69,7 @@ body {
   font-size: 0.9375em;
   line-height: 1;
   transition: 0.3s;
-  font-weight: 400;
+  font-weight: 800;
 }
 .menu li a:hover {
   color: hsl(5, 85%, 63%);
@@ -170,6 +172,7 @@ article section {
 }
 #item-b p {
   margin-bottom: 2em;
+  font-weight: 700;
 }
 #item-b h3 {
   margin-top: 3em;
@@ -202,6 +205,9 @@ article section {
   font-size: 1.5em;
   grid-column: 2 / 3;
 }
+#item-d #p1 {
+  font-weight: 700;
+}
 #item-d a {
   text-decoration: none;
 }
@@ -210,13 +216,23 @@ article section {
   float: left;
   margin-right: 1em;
 }
+#item-e p {
+  font-weight: 700;
+}
 #item-f img {
   float: left;
   margin-right: 1em;
 }
+#item-f p {
+  font-weight: 700;
+}
+
 #item-g img {
   float: left;
   margin-right: 1em;
+}
+#item-g p {
+  font-weight: 700;
 }
 p {
   color: hsl(233, 8%, 79%);
